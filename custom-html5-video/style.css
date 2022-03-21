@@ -801,6 +801,10 @@ svg {
 {
   opacity: 0 !important; 
 }
+.screenControls:hover 
+{
+
+}
 .screenControls
 {
   display: flex;
@@ -814,9 +818,13 @@ svg {
   opacity: 0;
   transition: 0.5s ease;
   z-index: 1 !important;
+  pointer-events: none;
 
 }
-
+.bottom-controls:hover
+{
+  display: flex;
+}
 .screenIcons
 {
   width: 40px;
